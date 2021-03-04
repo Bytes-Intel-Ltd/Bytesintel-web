@@ -1,0 +1,128 @@
+:root {
+    --main-white-color: #ffffff;
+}
+
+.banner-heading {
+    font-size: 2.65rem;
+    font-weight: 500;
+    line-height: 1.1;
+}
+
+/* Utility */
+
+.text-sm {
+    font-size: 0.89rem;
+}
+
+.lspace-2 {
+    letter-spacing: 2px;
+}
+
+.section-head + p {
+    font-size: 1.43rem;
+}
+
+.spartan {
+    font-family: 'Spartan', sans-serif !important;
+}
+
+.the_who-title h2 {
+    font-weight: 800;
+    font-size: 2.65rem;
+    line-height: 1.3;
+}
+
+.welcome-box {
+    width: calc(100% + 15px);
+    margin-top: 25px;
+    margin-bottom: 50px;
+    margin-left: -80px;
+    padding: 45px 50px 50px 50px;
+    background-color: var(--main-white-color);
+    box-shadow: 0 15px 25px rgb(0 0 0 / 6%);
+    z-index: 999;
+}
+
+.feature-content::before {
+    position: absolute;
+    top: 7px;
+    bottom: -9px;
+    left: 0;
+    z-index: 0;
+    content: " ";
+    width: 1px;
+    background-color: rgba(151,151,151,0.4);
+}
+
+.feature-heading {
+    position: relative;
+}
+
+.feature-heading span {
+    font-family: 'Spartan', sans-serif;
+    font-size: 2.5rem;
+    color: #ccc;
+    z-index: -2;
+}
+.feature-heading h3 {
+    /* font-family: 'Spartan', sans-serif; */
+    font-size: 0.96rem;
+    display: inline-block;
+}
+
+.feature-content-s2 p {
+    font-size: 0.875rem;
+}
+
+.feature-content h3 {
+    font-size: 1.13em;
+}
+
+.catchy-phrase h3 {
+    font-size: 32px;
+    line-height: 1.1;
+}
+
+
+.address-block h4 {
+    font-size: 17px;
+    vertical-align: middle;
+}
+
+.address-block ion-icon {
+    font-size: calc(16px + 4px);
+    vertical-align: middle;
+}
+
+.get_intouch {
+    letter-spacing: 2px;
+}
+
+.get_intouch:hover {
+    color: #1a1919 !important;
+}
+
+.country-addr-block p {
+    font-size: 0.87rem;
+    letter-spacing: 2px;
+}
+
+.country-icon {
+    width: 24px;
+    height: 24px;
+}
+
+.social-icons-block a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.footer-cr .wgs-content p {
+    font-size: 0.78rem;
+}
+
+.footer-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
