@@ -2,8 +2,22 @@
     --main-white-color: #ffffff;
 }
 
+/* Font face declaration */
+@font-face { 
+    font-family: 'SofiaPro Black'; 
+    src: url("../fonts/Sofia/Sofia_Pro_Black_Az.otf") format("opentype"); font-weight: normal; font-style: normal; 
+}
+@font-face { 
+  font-family: 'SofiaPro Regular'; 
+  src: url("../fonts/Sofia/Sofia_Pro_Regular_Az.otf") format("opentype"); font-weight: normal; font-style: normal; 
+}
+
+.main-logo {
+    width: 210px;
+}
+
 .banner-heading {
-    font-size: 2.65rem;
+    font-size: 2.67rem;
     font-weight: 500;
     line-height: 1.1;
 }
@@ -27,6 +41,7 @@
 }
 
 .the_who-title h2 {
+    font-family: "SofiaPro Regular";
     font-weight: 800;
     font-size: 2.65rem;
     line-height: 1.3;
@@ -34,8 +49,6 @@
 
 .welcome-box {
     width: calc(100% + 15px);
-    margin-top: 25px;
-    margin-bottom: 50px;
     margin-left: -80px;
     padding: 45px 50px 50px 50px;
     background-color: var(--main-white-color);
@@ -64,8 +77,9 @@
     color: #ccc;
     z-index: -2;
 }
+
 .feature-heading h3 {
-    /* font-family: 'Spartan', sans-serif; */
+    font-family: "SofiaPro Regular";
     font-size: 0.96rem;
     display: inline-block;
 }
@@ -75,6 +89,7 @@
 }
 
 .feature-content h3 {
+    font-family: "SofiaPro Regular";
     font-size: 1.13em;
 }
 
@@ -83,14 +98,10 @@
     line-height: 1.1;
 }
 
-
 .address-block h4 {
+    font-family: "SofiaPro Regular";
     font-size: 17px;
-    vertical-align: middle;
-}
-
-.address-block ion-icon {
-    font-size: calc(16px + 4px);
+    font-weight: 500;
     vertical-align: middle;
 }
 
@@ -118,11 +129,43 @@
 }
 
 .footer-cr .wgs-content p {
+    font-family: "SofiaPro Regular";
     font-size: 0.78rem;
+    display: inline-block;
+}
+
+.footer-cr .wgs-content img {
+    width: 18px;
+    display: inline-block;
+}
+
+.tc-red {
+    color: #d60c11;
 }
 
 .footer-image img {
     width: 100%;
     height: 100%;
     object-fit: cover;
+}
+
+/* Mobile */
+@media only screen and (max-width: 849px) { 
+    
+    .reach-us {
+        margin-top: 2rem !important;
+        padding-left: 1rem !important;
+    }
+
+    .catchy-phrase h3 {
+        font-family: "SofiaPro Black";
+        font-size: 24px;
+        line-height: 1.1;
+    }
+    .address-block h4 {
+        font-family: "SofiaPro Regular";
+        font-size: 0.97rem;
+        font-weight: 500;
+        vertical-align: middle;
+    }
 }

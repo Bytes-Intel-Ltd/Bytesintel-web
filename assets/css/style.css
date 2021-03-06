@@ -49,6 +49,7 @@
 @font-face { font-family: 'Roboto'; src: url("../fonts/Roboto-Medium.eot"); src: local("Roboto Medium"), local("Roboto-Medium"), url("../fonts/Roboto-Medium.eot?#iefix") format("embedded-opentype"), url("../fonts/Roboto-Medium.woff2") format("woff2"), url("../fonts/Roboto-Medium.woff") format("woff"), url("../fonts/Roboto-Medium.ttf") format("truetype"); font-weight: 500; font-style: normal; }
 @font-face { font-family: 'Roboto'; src: url("../fonts/Roboto-Bold.eot"); src: local("Roboto Bold"), local("Roboto-Bold"), url("../fonts/Roboto-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/Roboto-Bold.woff2") format("woff2"), url("../fonts/Roboto-Bold.woff") format("woff"), url("../fonts/Roboto-Bold.ttf") format("truetype"); font-weight: bold; font-style: normal; }
 @font-face { font-family: 'genox-icon'; src: url("../fonts/genox-icon.ttf?4rdqtr") format("truetype"), url("../fonts/genox-icon.woff?4rdqtr") format("woff"), url("../fonts/genox-icon.svg?4rdqtr#genox-icon") format("svg"); font-weight: normal; font-style: normal; }
+
 .ikon { /* use !important to prevent issues with browser extensions that change fonts */ font-family: 'genox-icon' !important; speak: none; font-style: normal; font-weight: normal; font-variant: normal; text-transform: none; line-height: 1; /* Better Font Rendering =========== */ -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }
 
 .ikon-brain:before { content: "\e90c"; }
@@ -1763,7 +1764,7 @@ h6, .h6, .fz-6 { font-size: 0.875rem; }
 @keyframes fade-border { 0% { transform: translateX(-50%) translateY(-50%) scale(1); opacity: 1; }
   100% { transform: translateX(-50%) translateY(-50%) scale(1.5); opacity: 0; } }
 .text-box { line-height: .8; }
-.text-box h2 { color: #131313; margin-bottom: 10px; }
+.text-box h2 { font-family: "SofiaPro Regular";color: #131313; margin-bottom: 10px; }
 .text-box h3 { color: #131313; }
 .text-box h4 + p { margin-top: 13px; }
 .text-box h5 { margin-bottom: 13px; }
@@ -2367,7 +2368,7 @@ h6, .h6, .fz-6 { font-size: 0.875rem; }
 .bg-ocean-pattern .menu-item:first-child, .bg-dark-alt .menu-item:first-child, .bg-dark .menu-item:first-child { border-color: rgba(219, 228, 247, 0.08) !important; }
 .menu-item:last-child { border-bottom: 0; }
 .menu-item > ul, .menu-item .menu-sub { display: none; }
-.menu-item a { font-family: "Poppins", sans-serif; font-size: 13.5px; line-height: 16.8px; color: #131313; padding: 12px 0; display: block; position: relative; font-weight: 600; }
+.menu-item a { font-family: "SofiaPro Regular"; font-size: 13.5px; line-height: 16.8px; color: #131313; padding: 12px 0; display: block; position: relative; font-weight: 600; }
 .bg-dark-alt .menu-item a { color: #ffffff; }
 .bg-dark .menu-item a { color: #ffffff; }
 .menu-item a .badge { margin-left: 3px; padding: 3px 7px 2px; font-size: 8px; background: #2a6bff; letter-spacing: 0.05em; top: -2px; font-weight: 500; }
@@ -2750,7 +2751,7 @@ h6, .h6, .fz-6 { font-size: 0.875rem; }
 
 /** 05 block **/
 /** 05.1 Banner */
-.banner-heading { font-size: 1.714rem; font-weight: 900; line-height: 1.1; }
+.banner-heading { font-family: 'SofiaPro Black';font-size: 1.714rem; font-weight: 900; line-height: 1.1; }
 .banner-heading-s2 { font-size: 1.714rem; }
 .banner-heading-s3 { margin-bottom: 20px; }
 
