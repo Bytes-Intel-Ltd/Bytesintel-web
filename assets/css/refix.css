@@ -23,7 +23,6 @@
 }
 
 /* Utility */
-
 .text-sm {
     font-size: 0.89rem;
 }
@@ -98,6 +97,10 @@
     line-height: 1.1;
 }
 
+.tomsalem-logo {
+    width: 100px;
+}
+
 .address-block h4 {
     font-family: "SofiaPro Regular";
     font-size: 17px;
@@ -142,6 +145,7 @@
 .tc-red {
     color: #d60c11;
 }
+
 
 .footer-image img {
     width: 100%;
