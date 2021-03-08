@@ -152,8 +152,16 @@
 /* Mobile */
 @media only screen and (max-width: 849px) { 
     
+    .welcome-box {
+        width: 100%;
+        margin-left: 0;
+        padding: 45px 25px 50px;
+        background-color: var(--main-white-color);
+        box-shadow: 0 15px 25px rgb(0 0 0 / 6%);
+    }
+
     .reach-us {
-        margin-top: 2rem !important;
+        margin-top: 2.5rem !important;
         padding-left: 1rem !important;
     }
 
@@ -167,5 +175,19 @@
         font-size: 0.97rem;
         font-weight: 500;
         vertical-align: middle;
+    }
+
+    .cta-sec h3, .cta-sec h6 {
+        line-height: 1.6;
+    }
+
+    .cta-sec h3 {
+        font-size: 1.36rem;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+    }
+
+    .cta-sec > .cta-sec-btn {
+        margin-top: 15px;
     }
 }
