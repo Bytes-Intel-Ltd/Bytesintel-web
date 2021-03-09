@@ -1849,15 +1849,15 @@ h6, .h6, .fz-6 { font-size: 0.875rem; }
   .dash-both::after { left: auto; right: 0; } }
 .section-head { margin-bottom: 38px; line-height: .8; }
 .section-head .heading-xs { margin-bottom: 13px; }
-.section-head h2 { margin-bottom: 15px; }
+.section-head h2 { margin-bottom: 15px; font-family: 'SofiaPro Regular'; }
 .section-head p + a { margin-top: 10px; }
 .section-head h2 + a { margin-top: 10px; }
 .section-head p { line-height: 1.6; }
 .section-head-col { padding-bottom: 0; margin-bottom: 15px; }
-.section-head-col h2 { margin-bottom: 0; }
+.section-head-col h2 { font-family: 'SofiaPro Regular'; margin-bottom: 0; }
 .section-head-col h2 + p { padding-top: 11px; }
 .section-head-col p + .btn { margin-top: 4px; }
-.section-head-s2 h2 { font-size: 1.5rem; line-height: 1.25; font-weight: 900; margin-bottom: 30px; }
+.section-head-s2 h2 { font-family: 'SofiaPro Regular'; font-size: 1.5rem; line-height: 1.25; font-weight: 900; margin-bottom: 30px; }
 .section-head-s3 h2 { font-size: 1.3rem; }
 .section-head-s5 h2 { font-size: 1.6rem; }
 
